@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with our health and wellness team. We are here to answer your questions and support your wellness journey.">
+  <meta name="keywords" content="health, wellness, fitness, nutrition, meditation, exercise, well-being, healthy lifestyle, workout, mindfulness">
+  <meta name="author" content="Health and Wellness Team">
+  <title>Contact | Health &amp; Wellness</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo-link">
+        <img src="images/logo.svg" alt="Health and Wellness leaf and heart logo" class="logo-img">
+        <span class="site-title">Health &amp; Wellness</span>
+      </a>
+      <button id="darkModeToggle" class="dark-mode-btn">🌙</button>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="data.html">Nutrition</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <h1>Contact Us</h1>
+    <p>Have a quesiton or want to start your wellness journey? Fill in the form below and we&rsquo;ll get back to you within 24 hours. You can also reach us directly at <a href="mailto:contact@healthwellness.com">contact@healthwellness.com</a>.</p>
+
+    <div class="contact-layout">
+
+      <article class="contact-article">
+        <section class="form-section">
+          <h2>Send Us a Message</h2>
+
+          <form id="contactForm" action="#" method="post">
+
+            <div class="form-group">
+              <label for="fullName">Full Name <span class="required">*</span></label>
+              <input type="text" id="fullName" name="fullName" placeholder="e.g. Jane Smith" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address <span class="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="e.g. jane@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="e.g. 07700 900000">
+            </div>
+
+            <div class="form-group">
+              <label for="dob">Date of Birth</label>
+              <input type="date" id="dob" name="dob">
+            </div>
+
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input type="number" id="age" name="age" min="16" max="120" placeholder="e.g. 30">
+            </div>
+
+            <div class="form-group">
+              <label for="topic">Enquiry Topic <span class="required">*</span></label>
+              <select id="topic" name="topic" required>
+                <option value="">-- Select a topic --</option>
+                <option value="nutrition">Nutrition Advice</option>
+                <option value="fitness">Fitness &amp; Exercise</option>
+                <option value="mindfulness">Mindfulness &amp; Meditation</option>
+                <option value="general">General Enquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <fieldset>
+                <legend>Your Primary Wellness Goal</legend>
+                <div class="radio-group">
+                  <label><input type="radio" name="goal" value="lose-weight"> Lose Weight</label>
+                </div>
+                <div class="radio-group">
+                  <label><input type="radio" name="goal" value="build-muscle"> Build Muscle</label>
+                </div>
+                <div class="radio-group">
+                  <label><input type="radio" name="goal" value="improve-fitness"> Improve General Fitness</label>
+                </div>
+                <div class="radio-group">
+                  <label><input type="radio" name="goal" value="reduce-stress"> Reduce Stress</label>
+                </div>
+              </fieldset>
+            </div>
+
+            <div class="form-group">
+              <label for="fitnessLevel">Current Fitness Level: <span id="fitnessValue">5</span> / 10</label>
+              <input type="range" id="fitnessLevel" name="fitnessLevel" min="1" max="10" value="5">
+            </div>
+
+            <div class="form-group checkbox-group">
+              <label>
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                Subscribe to our monthly wellness newsletter
+              </label>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message <span class="required">*</span></label>
+              <textarea id="message" name="message" placeholder="Tell us a bit about yourself and how we can help..." required></textarea>
+            </div>
+
+            <button type="submit" id="submitBtn">Send Message</button>
+
+          </form>
+        </section>
+      </article>
+
+      <aside class="contact-aside">
+        <h2>Connect With Us</h2>
+        <p>Follow us on social media for daily wellness tips, recipe ideas, workout videos, and motivational content.</p>
+
+        <div class="social-connect">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-card">
+            <img src="images/instagram.svg" alt="Instagram logo">
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-card">
+            <img src="images/facebook.svg" alt="Facebook logo">
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="social-card">
+            <img src="images/youtube.svg" alt="YouTube logo">
+            <span>YouTube</span>
+          </a>
+        </div>
+
+        <h3>Office Hours</h3>
+        <ul>
+          <li>Monday &ndash; Friday: 9am &ndash; 5pm</li>
+          <li>Saturday: 10am &ndash; 2pm</li>
+          <li>Sunday: Closed</li>
+        </ul>
+
+        <h3>Direct Contact</h3>
+        <p>Email: <a href="mailto:contact@healthwellness.com">contact@healthwellness.com</a></p>
+      </aside>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <img src="images/instagram.svg" alt="Follow us on Instagram">
+      </a>
+      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <img src="images/facebook.svg" alt="Follow us on Facebook">
+      </a>
+      <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+        <img src="images/youtube.svg" alt="Subscribe to us on YouTube">
+      </a>
+    </div>
+    <p><a href="mailto:contact@healthwellness.com">contact@healthwellness.com</a></p>
+    <p>&copy; 2026 Health &amp; Wellness. All rights reserved.</p>
+  </footer>
+
+  <div id="catPeek" class="cat-peek">🐱</div>
+
+  <div id="cookiePopup" class="cookie-popup">
+    <div class="cookie-box">
+      <h3>🍪 We use cookies!</h3>
+      <p>We'd love to use your data to improve your experience. It will definitely not be used to fund our gambling addictions or sign you up for our unsolicited smoothie newsletter.</p>
+      <p>Probably.</p>
+      <div class="cookie-buttons">
+        <button id="cookieAccept" class="cookie-btn accept">Go for it 🎰</button>
+        <button id="cookieDecline" class="cookie-btn decline">No thanks</button>
+      </div>
+      <p class="cookie-note">* If you decline, we'll just ask again next time. Sorry about that 😅</p>
+    </div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
